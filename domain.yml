@@ -39,6 +39,17 @@ responses:
   - text: Easy peasy! Follow us on insta and stay tuned for any news of recruitment.
   utter_bot_issues:
   - text: Don't worry! We got your back. Drop a mail at datasciencecommunitysrm@gmail.com.
+  utter_bot_capabilities:
+  - buttons:
+    - payload: Domains
+      title: Domains
+    - payload: Sponsors
+      title: Sponsors
+    - payload: Blogs
+      title: Blogs
+    - payload: Projects
+      title: Projeccts
+    text: I can help you with
 actions:
 - utter_greet
 - utter_goodbye
@@ -50,3 +61,4 @@ actions:
 - utter_bot_about_club
 - utter_bot_recruitments
 - utter_bot_issues
+- utter_bot_capabilities
