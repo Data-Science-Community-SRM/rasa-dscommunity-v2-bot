@@ -3,29 +3,41 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - bot_ask_community
+  - bot_tech
+  - bot_recruitments
+  - bot_about_club
+  - bot_projects
+  - bot_issues
+  - bot_sponsor
+  - bot_blogs
+
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  - text: Hey! How are you?
 
   utter_goodbye:
-  - text: "Bye"
+  - text: Bye
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_bot_ask_community:
+  - text: Our team is divided into three main domains that work together.They are- technical, design, management.
+  utter_bot_tech:
+  - text: We work in the fields of Data Analytics, AI and ML, Blockchain, IOT and Web-dev.
+  utter_bot_projects:
+  - text: We work on projects regarding the various fields of our technical domain.
+  utter_bot_sponsor:
+  - text: SRMIST, bitgrit, DataCamp ,CodingBlocks and many more have helped us made all this possible.
+  utter_bot_blogs:
+  - text: We have a consistent series of blogs, check out at https://dscommunity.in/blog/blog.html
+  utter_bot_about_club:
+  - text: You will get updated with the latest technology and will definitely experience a  workplace environment.
+  utter_bot_recruitments:
+  - text: Easy peasy! Follow us on insta and stay tuned for any news of recruitment.
+  utter_bot_issues:
+  - text: Don't worry! We got your back. Drop a mail at datasciencecommunitysrm@gmail.com.
+
+
 
 session_config:
   session_expiration_time: 60
