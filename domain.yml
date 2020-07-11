@@ -1,44 +1,52 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - bot_ask_community
-  - bot_tech
-  - bot_recruitments
-  - bot_about_club
-  - bot_projects
-  - bot_issues
-  - bot_sponsor
-  - bot_blogs
-
-
+- bot_greeting
+- bot_goodbye
+- affirm
+- deny
+- bot_ask_community
+- bot_tech
+- bot_recruitments
+- bot_about_club
+- bot_projects
+- bot_issues
+- bot_sponsor
+- bot_blogs
 responses:
   utter_greet:
-  - text: Hey! How are you?
-
+  - text: Hi. I am D.A.T.A. I am DS Community's bot.
   utter_goodbye:
-  - text: Bye
-
+  - text: Bye. It was nice meeting you.
   utter_bot_ask_community:
-  - text: Our team is divided into three main domains that work together.They are- technical, design, management.
+  - text: Our team is divided into three main domains that work together.They are-
+      technical, design, management.
   utter_bot_tech:
-  - text: We work in the fields of Data Analytics, AI and ML, Blockchain, IOT and Web-dev.
+  - text: We work in the fields of Data Analytics, AI and ML, Blockchain, IOT and
+      Web-dev.
   utter_bot_projects:
   - text: We work on projects regarding the various fields of our technical domain.
   utter_bot_sponsor:
-  - text: SRMIST, bitgrit, DataCamp ,CodingBlocks and many more have helped us made all this possible.
+  - text: SRMIST, bitgrit, DataCamp ,CodingBlocks and many more have helped us made
+      all this possible.
   utter_bot_blogs:
   - text: We have a consistent series of blogs, check out at https://dscommunity.in/blog/blog.html
   utter_bot_about_club:
-  - text: You will get updated with the latest technology and will definitely experience a  workplace environment.
+  - text: You will get updated with the latest technology and will definitely experience
+      a  workplace environment.
   utter_bot_recruitments:
   - text: Easy peasy! Follow us on insta and stay tuned for any news of recruitment.
   utter_bot_issues:
   - text: Don't worry! We got your back. Drop a mail at datasciencecommunitysrm@gmail.com.
-
-
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+actions:
+- utter_greet
+- utter_goodbye
+- utter_bot_ask_community
+- utter_bot_tech
+- utter_bot_projects
+- utter_bot_sponsor
+- utter_bot_blogs
+- utter_bot_about_club
+- utter_bot_recruitments
+- utter_bot_issues
