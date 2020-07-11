@@ -81,8 +81,8 @@
   - utter_bot_about_club
 * bot_recruitments
   - utter_bot_recruitments
-* goodbye_bot
-  - utter_goodbye_bot
+* goodbye
+  - utter_goodbye
 
 ## blogs_projects
 * greet
@@ -93,8 +93,8 @@
   - utter_bot_projects
 * bot_blogs
   - utter_bot_blogs
-* goodbye_bot
-  - utter_informal_bot
+* goodbye
+  - utter_goodbye
 
 ## domain_tech_projects
 * greet
