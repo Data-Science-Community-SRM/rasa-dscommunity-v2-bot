@@ -1,4 +1,4 @@
-## intent:greet
+## intent:bot_greeting
 - hey
 - hello
 - hi
@@ -6,7 +6,7 @@
 - good evening
 - hey there
 
-## intent:goodbye
+## intent:bot_goodbye
 - bye
 - goodbye
 - see you around

@@ -1,13 +1,13 @@
 ## happy path
-* greet
+* bot_greeting
   - utter_greet
 
 ## say goodbye
-* goodbye
+* bot_goodbye
   - utter_goodbye
 
 ## about_community_morning
-* greet
+* bot_greeting
   - utter_greet
 * bot_ask_community
   - utter_bot_ask_community
@@ -25,7 +25,7 @@
   - utter_bot_recruitments
 
 ## about_community_evening
-* greet
+* bot_greeting
   - utter_greet
 * bot_ask_community
   - utter_bot_ask_community
@@ -43,7 +43,7 @@
   - utter_bot_recruitments
 
 ## about_community_informal
-* greet
+* bot_greeting
   - utter_greet
 * bot_ask_community
   - utter_bot_ask_community
@@ -61,7 +61,7 @@
   - utter_bot_recruitments
 
 ## recruitments_perks_unhappy_path
-* greet
+* bot_greeting
   - utter_greet
 * bot_ask_community
   - utter_bot_ask_community
@@ -73,7 +73,7 @@
   - utter_bot_issues
 
 ## recruitments_perks_happy_path
-* greet
+* bot_greeting
   - utter_greet
 * bot_ask_community
   - utter_bot_ask_community
@@ -81,11 +81,11 @@
   - utter_bot_about_club
 * bot_recruitments
   - utter_bot_recruitments
-* goodbye
+* bot_goodbye
   - utter_goodbye
 
 ## blogs_projects
-* greet
+* bot_greeting
   - utter_greet
 * bot_tech
   - utter_bot_tech
@@ -93,14 +93,14 @@
   - utter_bot_projects
 * bot_blogs
   - utter_bot_blogs
-* goodbye
+* bot_goodbye
   - utter_goodbye
 
 ## domain_tech_projects
-* greet
-  - utter_informal_greeting
+* bot_greeting
+  - utter_greet
 * bot_ask_community
-  - utter_bot_community
+  - utter_bot_ask_community
 * bot_tech
   - utter_bot_tech
 * bot_projects
