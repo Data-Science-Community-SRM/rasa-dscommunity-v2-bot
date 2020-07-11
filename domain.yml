@@ -4,7 +4,7 @@ session_config:
 intents:
 - bot_greeting
 - bot_goodbye
-- affirm
+- appreciation
 - deny
 - bot_ask_community
 - bot_tech
@@ -14,6 +14,7 @@ intents:
 - bot_issues
 - bot_sponsor
 - bot_blogs
+- bot_challenge
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot.
@@ -50,6 +51,10 @@ responses:
     - payload: Projects
       title: Projeccts
     text: I can help you with
+  utter_default:
+  - text: Sorry I couldn't understand. Please try again
+  utter_appreciation:
+  - text: That's very nice of you.
 actions:
 - utter_greet
 - utter_goodbye
@@ -62,3 +67,4 @@ actions:
 - utter_bot_recruitments
 - utter_bot_issues
 - utter_bot_capabilities
+- utter_default

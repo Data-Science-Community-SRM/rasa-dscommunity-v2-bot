@@ -12,14 +12,11 @@
 - see you around
 - see you later
 
-## intent:affirm
-- yes
-- indeed
-- of course
+## intent:appreciation
 - that sounds good
-- correct
 - perfect
 - great
+- nice
 
 ## intent:deny
 - no
@@ -117,5 +114,9 @@
 - is there any article about the club?
 - Where can I find community's blog?
 
+## intent:bot_challenge
+- Am I talking to a bot?
+- Are you a human?
+- Who are you?
 
 
