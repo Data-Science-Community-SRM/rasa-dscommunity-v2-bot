@@ -68,3 +68,4 @@ actions:
 - utter_bot_issues
 - utter_bot_capabilities
 - utter_default
+- utter_appreciation
