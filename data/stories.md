@@ -183,3 +183,19 @@
 * appreciation
   - utter_appreciation
 
+## contacting_community
+* bot_contact
+  - utter_bot_contact
+
+## social_media_handles
+* bot_social_media_handles
+  - utter_bot_social_media_handles_website
+  - utter_bot_social_media_handles_linkedin
+  - utter_bot_social_media_handles_instagram
+  - utter_bot_social_media_handles_twitter
+  - utter_bot_social_media_handles_medium
+
+## cuss_words_protection
+* bot_cuss_words_protection
+  - utter_bot_cuss_words_protection
+

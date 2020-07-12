@@ -20,6 +20,10 @@ intents:
 - bot_board
 - bot_teacher
 - bot_department
+- bot_contact
+- bot_social_media_handles
+- bot_cuss_words_protection
+
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot.
@@ -57,21 +61,39 @@ responses:
       title: Projects
     text: I can help you with
   utter_default:
-  - text: I think so your question is currently out of the scope of what data I am trained on.Sorry :-(
+  - text: I think so your question is currently out of the scope of what data I am
+      trained on.Sorry :-(
   utter_appreciation:
   - text: That's very nice of you.
   utter_bot_founding_when:
-  - text: The DS Community was established in January of 2020. I know we are pretty new.
+  - text: The DS Community was established in January of 2020. I know we are pretty
+      new.
   utter_bot_founding_why:
-  - text: The DS Community was created to establish a data driven culture at SRM and provide the budding data scientists the best possible medium to practice data science.
+  - text: The DS Community was created to establish a data driven culture at SRM and
+      provide the budding data scientists the best possible medium to practice data
+      science.
   utter_bot_teacher:
   - text: The DS Community is being guided by the expertise of Ms. Priya.
   utter_bot_department:
-  - text: The DS Community is currently under the aegis of the Computer Science Department at SRM.
+  - text: The DS Community is currently under the aegis of the Computer Science Department
+      at SRM.
   utter_bot_board_members:
-  - text: The DS Community is currently being controlled and led by a board comprising of 8 people.
-
-  
+  - text: The DS Community is currently being controlled and led by a board comprising
+      of 8 people.
+  utter_bot_contact:
+  - text: We are always there for you.Contact us at datasciencecommunitysrm@gmail.com.
+  utter_social_media_handles_website:
+  - text: Here is the link to our [website](https://dscommunity.in)
+  utter_social_media_handles_instagram:
+  - text: Here is the link to our [Instagram](https://www.instagram.com/dscommunity_srm)
+  utter_social_media_handles_linkedin:
+  - text: Here is the link to our [Linkedin](https://www.linkedin.com/company/datasciencecommunitysrm)
+  utter_social_media_handles_twitter:
+  - text: Here is the link to our [Twitter](https://twitter.com/dscommunitysrm)
+  utter_social_media_handles_medium:
+  - text: Here is the link to our [Medium](https://medium.com/data-science-community-srm/about)
+  utter_bot_cuss_words_protection:
+  - text: Being a bot, I refrain from using that word.
 actions:
 - utter_greet
 - utter_bot_goodbye
@@ -86,3 +108,8 @@ actions:
 - utter_bot_capabilities
 - utter_default
 - utter_appreciation
+- utter_bot_founding_when
+- utter_bot_founding_why
+- utter_bot_teacher
+- utter_bot_department
+- utter_bot_board_members

@@ -125,6 +125,8 @@
 - When did the club start operating?
 - When was this club founded?
 - Tell me when this club was founded
+- What is the age of DS Community?
+- How old is the DS Community?
 
 ## intent:bot_founding_why
 - Why was this club formed?
@@ -149,8 +151,45 @@
 - Which department does the club work under?
 - Can you tell me which is the department that the club belongs to?
 
+## intent:bot_contact
+- Whom to contact?
+- How can I get in touch with you guys?
+- Who should I contact?
+- How can I contact you?
+- Whom should I contact?
 
+## intent:bot_social_media_handles
+- What are your social media handles?
+- Can you tell about your media handles?
+- What are your handles?
+- Are you people on Twitter?
+- Are you people on Instagram?
+- Are you people on Linkedin?
+- Do you people have a website?
+- What is your website?
 
- 
-
+## intent:bot_cuss_words_protection
+- F*ck
+- Fuck
+- F*ck you
+- Shit
+- Piss off
+- Dick head
+- Asshole
+- Son of a b*tch
+- Bastard
+- Bitch
+- Damn
+- C*nt
+- Bollocks
+- Bugger
+- Bugger
+- Choad
+- Crikey 
+- Rubbish
+- Shag
+- Wanker
+- Taking the piss
+- Twat
+- Cunt
 
