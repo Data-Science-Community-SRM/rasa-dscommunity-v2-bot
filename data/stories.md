@@ -32,7 +32,7 @@
 * bot_department
   - utter_bot_department
 * bot_board
-  - utter_bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -61,7 +61,7 @@
 * bot_department
   - utter_bot_department
 * bot_board
-  - utter_bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -90,7 +90,7 @@
 * bot_department
   - utter_bot_department
 * bot_board
-  - utter_bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -171,7 +171,7 @@
   - utter_greet
   - utter_bot_capabilities
 * bot_board
-  - utter_bot_board
+  - utter_bot_board_members
 * bot_goodbye
   - utter_bot_goodbye
 
