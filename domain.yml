@@ -15,6 +15,11 @@ intents:
 - bot_sponsor
 - bot_blogs
 - bot_challenge
+- bot_founding_when
+- bot_founding_why
+- bot_board_members
+- bot_teacher
+- bot_department
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot.
@@ -52,9 +57,21 @@ responses:
       title: Projects
     text: I can help you with
   utter_default:
-  - text: Sorry I couldn't understand. Please try again
+  - text: I think so your question is currently out of the scope of what data I am trained on.Sorry :-(
   utter_appreciation:
   - text: That's very nice of you.
+  utter_bot_founding_when:
+  - text: The DS Community was established in January of 2020. I know we are pretty new.
+  utter_bot_founding_why:
+  - text: The DS Community was created to establish a data driven culture at SRM and provide the budding data scientists the best possible medium to practice data science.
+  utter_bot_teacher:
+  - text: The DS Community is being guided by the expertise of Ms. Priya.
+  utter_bot_department:
+  - text: The DS Community is currently under the aegis of the Computer Science Department at SRM.
+  utter_bot_board_members:
+  - text: The DS Community is currently being controlled and led by a board comprising of 8 people.
+  
+  
 actions:
 - utter_greet
 - utter_goodbye
