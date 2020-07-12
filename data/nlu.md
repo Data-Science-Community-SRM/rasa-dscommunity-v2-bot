@@ -148,7 +148,6 @@
 - Which department does the club work under?
 - Can you tell me which is the department that the club belongs to?
 
-## intent:bot
 
 
  
