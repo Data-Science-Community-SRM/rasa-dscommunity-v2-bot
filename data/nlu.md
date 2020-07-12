@@ -5,7 +5,6 @@
 - good morning
 - good evening
 - hey there
-- nice to meet you
 
 ## intent:bot_goodbye
 - bye
@@ -49,6 +48,9 @@
 - That was a very genius response
 - That was a very clever response
 - That was a pretty nice answer
+- Nice answer
+- Nice
+- nice
 
 ## intent:bot_ask_community
 - What are the domains in DS community?
