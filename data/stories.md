@@ -113,6 +113,12 @@
   - utter_bot_tech
 * bot_projects
   - utter_bot_projects
+  
+## about_time_founding
+* bot_greeting
+  - utter_greet
+  - utter_bot_capabilities
+* bot_
 
 
 ## default_fallback
