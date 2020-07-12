@@ -132,7 +132,7 @@
 - What made the founders form this club?
 - Tell me why this club was founded.
 
-## intent:bot_board_members
+## intent:bot_board
 - Who are the board members?
 - Can I know who the board members are?
 - Can you tell me more about the board?

@@ -17,13 +17,13 @@ intents:
 - bot_challenge
 - bot_founding_when
 - bot_founding_why
-- bot_board_members
+- bot_board
 - bot_teacher
 - bot_department
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot.
-  utter_goodbye:
+  utter_bot_goodbye:
   - text: Bye. It was nice meeting you.
   utter_bot_ask_community:
   - text: Our team is divided into three main domains that work together.They are-
@@ -70,11 +70,11 @@ responses:
   - text: The DS Community is currently under the aegis of the Computer Science Department at SRM.
   utter_bot_board_members:
   - text: The DS Community is currently being controlled and led by a board comprising of 8 people.
-  
+
   
 actions:
 - utter_greet
-- utter_goodbye
+- utter_bot_goodbye
 - utter_bot_ask_community
 - utter_bot_tech
 - utter_bot_projects

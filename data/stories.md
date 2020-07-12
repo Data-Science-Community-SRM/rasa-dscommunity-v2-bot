@@ -5,7 +5,7 @@
 
 ## say goodbye
 * bot_goodbye
-  - utter_goodbye
+  - utter_bot_goodbye
 
 ## about_community_morning
 * bot_greeting
@@ -118,7 +118,7 @@
 * bot_recruitments
   - utter_bot_recruitments
 * bot_goodbye
-  - utter_goodbye
+  - utter_bot_goodbye
 
 ## blogs_projects
 * bot_greeting
@@ -131,7 +131,7 @@
 * bot_blogs
   - utter_bot_blogs
 * bot_goodbye
-  - utter_goodbye
+  - utter_bot_goodbye
 
 ## domain_tech_projects
 * bot_greeting
