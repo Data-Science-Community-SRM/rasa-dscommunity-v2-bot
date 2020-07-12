@@ -120,4 +120,37 @@
 - Are you a human?
 - Who are you?
 
+## intent:bot_founding_when
+- When was this club established?
+- When did the club start operating?
+- When was this club founded?
+- Tell me when this club was founded
+
+## intent:bot_founding_why
+- Why was this club formed?
+- Why was DS Community found?
+- What made the founders form this club?
+- Tell me why this club was founded.
+
+## intent:bot_board_members
+- Who are the board members?
+- Can I know who the board members are?
+- Can you tell me more about the board?
+- Tell me about the board
+
+## intent:bot_teacher
+- Who is the teacher incharge of the club?
+- Who is the teacher coordinator of the club?
+- Who is the teacher coordinator that supports the club?
+- Can you me who the teacher coordinator is?
+
+## intent:bot_department
+- Which department does the club fall under?
+- Which department does the club work under?
+- Can you tell me which is the department that the club belongs to?
+
+
+
+ 
+
 

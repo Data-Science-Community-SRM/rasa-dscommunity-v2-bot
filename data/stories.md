@@ -23,6 +23,16 @@
   - utter_bot_blogs
 * bot_about_club
   - utter_bot_about_club
+* bot_founding_when
+  - utter_bot_founding_when
+* bot_founding_why
+  - utter_bot_founding_why
+* bot_teacher
+  - utter_bot_teacher
+* bot_department
+  - utter_bot_department
+* bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -42,6 +52,16 @@
   - utter_bot_blogs
 * bot_about_club
   - utter_bot_about_club
+* bot_founding_when
+  - utter_bot_founding_when
+* bot_founding_why
+  - utter_bot_founding_why
+* bot_teacher
+  - utter_bot_teacher
+* bot_department
+  - utter_bot_department
+* bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -61,6 +81,16 @@
   - utter_bot_blogs
 * bot_about_club
   - utter_bot_about_club
+* bot_founding_when
+  - utter_bot_founding_when
+* bot_founding_why
+  - utter_bot_founding_why
+* bot_teacher
+  - utter_bot_teacher
+* bot_department
+  - utter_bot_department
+* bot_board
+  - utter_bot_board_members
 * bot_recruitments
   - utter_bot_recruitments
 
@@ -113,12 +143,41 @@
   - utter_bot_tech
 * bot_projects
   - utter_bot_projects
-
+  
+## about_founding
+* bot_greeting
+  - utter_greet
+  - utter_bot_capabilities
+* bot_founding_when
+  - utter_bot_founding_when
+* bot_founding_why
+  - utter_bot_founding_why
+* bot_goodbye
+  - utter_bot_goodbye
+  
+## about_teacher_department
+* bot_greeting
+  - utter_greet
+  - utter_bot_capabilities
+* bot_teacher
+  - utter_bot_teacher
+* bot_department
+  - utter_bot_department
+* bot_goodbye
+  - utter_bot_goodbye  
+  
+## about_board
+* bot_greeting
+  - utter_greet
+  - utter_bot_capabilities
+* bot_board
+  - utter_bot_board_members
+* bot_goodbye
+  - utter_bot_goodbye
 
 ## default_fallback
 * bot_challenge
   - action_default_fallback
-
 
 ## appreciating_community
 * appreciation
