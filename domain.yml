@@ -4,8 +4,7 @@ session_config:
 intents:
 - bot_greeting
 - bot_goodbye
-- appreciation
-- deny
+- bot_appreciation
 - bot_ask_community
 - bot_tech
 - bot_recruitments
@@ -23,10 +22,9 @@ intents:
 - bot_contact
 - bot_social_media_handles
 - bot_cuss_words_protection
-
 responses:
   utter_greet:
-  - text: Hi. I am D.A.T.A. I am DS Community's bot.
+  - text: Hi. I am D.A.T.A. I am DS Community's bot. Nice to meet you
   utter_bot_goodbye:
   - text: Bye. It was nice meeting you.
   utter_bot_ask_community:
@@ -63,7 +61,7 @@ responses:
   utter_default:
   - text: I think so your question is currently out of the scope of what data I am
       trained on.Sorry :-(
-  utter_appreciation:
+  utter_bot_appreciation:
   - text: That's very nice of you.
   utter_bot_founding_when:
   - text: The DS Community was established in January of 2020. I know we are pretty
@@ -107,9 +105,16 @@ actions:
 - utter_bot_issues
 - utter_bot_capabilities
 - utter_default
-- utter_appreciation
+- utter_bot_appreciation
 - utter_bot_founding_when
 - utter_bot_founding_why
 - utter_bot_teacher
 - utter_bot_department
 - utter_bot_board_members
+- utter_bot_contact
+- utter_bot_social_media_handles_website
+- utter_bot_social_media_handles_instagram
+- utter_bot_social_media_handles_linkedin
+- utter_bot_social_media_handles_twitter
+- utter_bot_social_media_handles_medium
+- utter_bot_cuss_words_protection

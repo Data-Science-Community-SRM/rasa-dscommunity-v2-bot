@@ -180,8 +180,8 @@
   - action_default_fallback
 
 ## appreciating_community
-* appreciation
-  - utter_appreciation
+* bot_appreciation
+  - utter_bot_appreciation
 
 ## contacting_community
 * bot_contact

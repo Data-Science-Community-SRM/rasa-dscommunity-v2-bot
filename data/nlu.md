@@ -5,6 +5,7 @@
 - good morning
 - good evening
 - hey there
+- nice to meet you
 
 ## intent:bot_goodbye
 - bye
@@ -12,20 +13,42 @@
 - see you around
 - see you later
 
-## intent:appreciation
-- ok
-- that sounds good
-- perfect
-- great
-- nice
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:bot_appreciation
+- That was a clever answer
+- That is very astute
+- That was a pretty intelligent answer
+- That was a pretty genius answer
+- That was a pretty clever answer
+- That was a pretty brilliant answer
+- That was a pretty astute answer
+- That was a genius response
+- That was a smart answer
+- That was a clever response
+- That was a smart response
+- That was a brilliant response
+- That was a brilliant answer
+- That is very smart
+- That is very intelligent
+- That is very genius
+- That is very clever
+- That was a genius answer
+- That was an astute response
+- That's a very astute answer
+- That was pretty smart
+- That was pretty intelligent
+- That was pretty genius
+- That was pretty clever
+- That was pretty brilliant
+- That was pretty astute
+- That was a pretty smart answer
+- That was an intelligent answer
+- That is pretty smart
+- That was an astute answer
+- That was a very smart response
+- That was a very intelligent response
+- That was a very genius response
+- That was a very clever response
+- That was a pretty nice answer
 
 ## intent:bot_ask_community
 - What are the domains in DS community?
