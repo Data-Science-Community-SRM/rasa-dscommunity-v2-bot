@@ -82,15 +82,15 @@ responses:
       of 8 people.
   utter_bot_contact:
   - text: We are always there for you.Contact us at datasciencecommunitysrm@gmail.com.
-  utter_social_media_handles_website:
+  utter_bot_social_media_handles_website:
   - text: Here is the link to our [website](https://dscommunity.in)
-  utter_social_media_handles_instagram:
+  utter_bot_social_media_handles_instagram:
   - text: Here is the link to our [Instagram](https://www.instagram.com/dscommunity_srm)
-  utter_social_media_handles_linkedin:
+  utter_bot_social_media_handles_linkedin:
   - text: Here is the link to our [Linkedin](https://www.linkedin.com/company/datasciencecommunitysrm)
-  utter_social_media_handles_twitter:
+  utter_bot_social_media_handles_twitter:
   - text: Here is the link to our [Twitter](https://twitter.com/dscommunitysrm)
-  utter_social_media_handles_medium:
+  utter_bot_social_media_handles_medium:
   - text: Here is the link to our [Medium](https://medium.com/data-science-community-srm/about)
   utter_bot_cuss_words_protection:
   - text: Being a bot, I refrain from using that word.
