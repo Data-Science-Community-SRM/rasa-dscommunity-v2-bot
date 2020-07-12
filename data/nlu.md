@@ -13,6 +13,7 @@
 - see you later
 
 ## intent:appreciation
+- ok
 - that sounds good
 - perfect
 - great
