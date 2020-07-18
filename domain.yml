@@ -22,6 +22,13 @@ intents:
 - bot_contact
 - bot_social_media_handles
 - bot_cuss_words_protection
+- repeating_answers
+- bad_answers
+- criticism
+- bot_origin
+- bot_family
+- desperate_bs
+- bot_suicide
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot. Nice to meet you
@@ -92,6 +99,8 @@ responses:
   - text: Here is the link to our [Medium](https://medium.com/data-science-community-srm/about)
   utter_bot_cuss_words_protection:
   - text: Being a bot, I refrain from using that word.
+  utter_repeating_answers:
+  - text: I am so sorry. I am a bit new to this world so I may repeat some stuffs.
 actions:
 - utter_greet
 - utter_bot_goodbye
