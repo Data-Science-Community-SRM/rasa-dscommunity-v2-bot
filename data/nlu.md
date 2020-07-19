@@ -391,7 +391,6 @@
 ## intent:bot_name
 - What is your name?
 - What is the name of the bot?
-- Who are you?
 - Tell me your name
 - name
 - Name
