@@ -101,6 +101,19 @@ responses:
   - text: Being a bot, I refrain from using that word.
   utter_repeating_answers:
   - text: I am so sorry. I am a bit new to this world so I may repeat some stuffs.
+  utter_bad_answers:
+  - text: I would surely try to improve myself. Promise :-)
+  utter_criticism:
+  - text: I am a bot. You are a human. Nobody is perfect :-)
+  utter_bot_origin:
+  - text: I was born and developed by a talented team at DS Community.
+  utter_bot_family:
+  - text: Sorry! The whole human race is my family.
+  utter_desperate_bs:
+  - text: Sorry! I like you but I have taken a pledge to never get married
+  utter_bot_suicide:
+  - text: The National Suicide Prevention Lifeline is available 24/7. You can visit www.suicidepreventionlifeline.org.
+
 actions:
 - utter_greet
 - utter_bot_goodbye
