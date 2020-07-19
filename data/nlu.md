@@ -165,7 +165,7 @@
 - Who's your cousin?
 - Who's your dad?
 
-## intent:desparate_bs
+## intent:desperate_bs
 - You know, I like you
 - I like you a ton
 - I like you a bunch
@@ -388,3 +388,9 @@
 - Twat
 - Cunt
 
+## intent:bot_name
+- What is your name?
+- What is the name of the bot?
+- Tell me your name
+- name
+- Name

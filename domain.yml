@@ -22,6 +22,14 @@ intents:
 - bot_contact
 - bot_social_media_handles
 - bot_cuss_words_protection
+- repeating_answers
+- bad_answers
+- criticism
+- bot_origin
+- bot_family
+- desperate_bs
+- bot_suicide
+- bot_name
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot. Nice to meet you
@@ -92,6 +100,23 @@ responses:
   - text: Here is the link to our [Medium](https://medium.com/data-science-community-srm/about)
   utter_bot_cuss_words_protection:
   - text: Being a bot, I refrain from using that word.
+  utter_repeating_answers:
+  - text: I am so sorry. I am a bit new to this world so I may repeat some stuffs.
+  utter_bad_answers:
+  - text: I would surely try to improve myself. Promise :-)
+  utter_criticism:
+  - text: I am a bot. You are a human. Nobody is perfect :-)
+  utter_bot_origin:
+  - text: I was born and developed by a talented team at DS Community.
+  utter_bot_family:
+  - text: Sorry! The whole human race is my family.
+  utter_desperate_bs:
+  - text: No. Its not possible.
+  utter_bot_suicide:
+  - text: The National Suicide Prevention Lifeline is available 24/7. You can visit www.suicidepreventionlifeline.org.
+  utter_bot_name:
+  - text: My name is DATA.
+
 actions:
 - utter_greet
 - utter_bot_goodbye
