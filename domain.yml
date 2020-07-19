@@ -29,6 +29,7 @@ intents:
 - bot_family
 - desperate_bs
 - bot_suicide
+- bot_name
 responses:
   utter_greet:
   - text: Hi. I am D.A.T.A. I am DS Community's bot. Nice to meet you
@@ -110,9 +111,11 @@ responses:
   utter_bot_family:
   - text: Sorry! The whole human race is my family.
   utter_desperate_bs:
-  - text: Sorry! I like you but I have taken a pledge to never get married
+  - text: No. Its not possible.
   utter_bot_suicide:
   - text: The National Suicide Prevention Lifeline is available 24/7. You can visit www.suicidepreventionlifeline.org.
+  utter_bot_name:
+  - text: My name is DATA.
 
 actions:
 - utter_greet

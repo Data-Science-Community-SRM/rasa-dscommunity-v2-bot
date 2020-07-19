@@ -199,3 +199,35 @@
 * bot_cuss_words_protection
   - utter_bot_cuss_words_protection
 
+## repeating_answers_by_bot
+* repeating_answers
+  - utter_repeating_answers
+
+## bad_answers_by_bot
+* bad_answers
+  - utter_bad_answers
+  
+## criticism_about_bot
+* criticism
+  - utter_criticism
+
+## origin_of_the_bot
+* bot_origin
+  - utter_bot_origin
+  
+## family_of_the_bot
+* bot_family
+  - utter_bot_family
+
+## desperate_bs_with_the_bot
+* desperate_bs
+  - utter_desperate_bs
+
+## suicide_prevention_by_user
+* bot_suicide
+  - utter_bot_suicide
+
+## name_of_the_bot
+* bot_name
+  - utter_bot_name
+
